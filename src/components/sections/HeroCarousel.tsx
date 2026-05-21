@@ -36,8 +36,8 @@ export default function HeroCarousel() {
   const currentRef = useRef(currentIdx)
   currentRef.current = currentIdx
 
-  const slideTimerRef    = useRef<ReturnType<typeof setTimeout>>()
-  const fadeCleanupRef   = useRef<ReturnType<typeof setTimeout>>()
+  const slideTimerRef    = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
+  const fadeCleanupRef   = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
 
   const advance = useCallback(() => {
     const next = (currentRef.current + 1) % CAROUSEL_IMAGES.length

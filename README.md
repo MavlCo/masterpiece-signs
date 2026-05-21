@@ -1,2 +1,1 @@
 # masterpiece-signs
-# masterpiece-signs

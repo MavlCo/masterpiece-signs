@@ -63,6 +63,12 @@ export const metadata: Metadata = {
     title: 'Masterpiece Signs & Graphics',
     description: "Don't just buy a sign — buy a Masterpiece.",
   },
+  icons: {
+    icon: [
+      { url: '/logos/logo.png', type: 'image/png', sizes: '512x512' },
+    ],
+    apple: { url: '/logos/logo.png', type: 'image/png' },
+  },
   robots: {
     index: true,
     follow: true,

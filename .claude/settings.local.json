@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__stitch__list_projects",
+      "PowerShell($data = Get-Content \"C:\\\\Users\\\\Shefco\\\\.claude\\\\projects\\\\C--Users-Shefco-Documents-mavlco-masterpiece-signs-graphics\\\\793de5b0-c175-4029-8942-561acc2f7596\\\\tool-results\\\\mcp-stitch-list_projects-1779324282487.txt\" | ConvertFrom-Json; $data.projects.Count)",
+      "mcp__stitch__list_design_systems",
+      "mcp__stitch__list_screens",
+      "mcp__stitch__get_project",
+      "PowerShell(Move-Item *)"
+    ]
+  }
+}
